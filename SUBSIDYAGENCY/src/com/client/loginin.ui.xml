@@ -1,0 +1,122 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'
+	xmlns:ma="urn:import:gwt.material.design.addins.client">
+	<ui:style gss="true">
+	body {
+		background: #ffe082;
+	}
+	.aa{
+	backgroundColor:#ffe082;
+
+	}
+	</ui:style>
+	<m:MaterialPanel>
+		<m:MaterialHeader ui:field="header">
+			<m:MaterialNavBar activates="sidenavDrawer"
+				backgroundColor="AMBER" shadow="1">
+				<m:MaterialNavBrand paddingLeft="60"
+					text="SUBSIDY AGENCY" />
+			</m:MaterialNavBar>
+			<m:MaterialTab ui:field="tabIntro" shadow="1" indicatorColor="YELLOW">
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLink  text="HOME" ui:field="cc" href="#tab1" textColor="WHITE" backgroundColor="DEEP_ORANGE"/>
+              </m:MaterialTabItem>
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLink ui:field="t1" text="LIST OF SUBSIDY" href="#tab2" textColor="WHITE" backgroundColor="DEEP_ORANGE"/>
+              </m:MaterialTabItem>
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLink ui:field="t5"  text="APPIELD SCHEMES"  textColor="WHITE" backgroundColor="DEEP_ORANGE"/>
+              </m:MaterialTabItem>
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLink ui:field="t3" text="ELIGIBLE CRITERIA" href="#tab3" textColor="WHITE" backgroundColor="DEEP_ORANGE"/>
+              </m:MaterialTabItem>
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLink ui:field="t4" text="STATUS" href="#tab3" textColor="WHITE" backgroundColor="DEEP_ORANGE"/>
+              </m:MaterialTabItem>
+              <m:MaterialTabItem waves="YELLOW">
+                <m:MaterialLink ui:field="t2" text="SIGNOUT" href="#tab3" textColor="WHITE" backgroundColor="DEEP_ORANGE"/>
+              </m:MaterialTabItem>
+            </m:MaterialTab>
+		</m:MaterialHeader>
+		<m:MaterialSideNavDrawer m:id="sidenavDrawer" addStyleNames="{style.aa}"
+			ui:field="sideNav" width="300">
+			<ma:sideprofile.MaterialSideProfile
+				url="http://a.rgbimg.com/users/r/ro/rosebfischer/300/qzEYEnu.jpg">
+
+				<m:MaterialLabel text="SUBSIDY AGENCY"
+					textColor="WHITE" />
+				
+				
+					
+			</ma:sideprofile.MaterialSideProfile>
+			<m:MaterialLink iconType="SEND" text="CATEGORY">
+			
+			</m:MaterialLink>
+			<m:MaterialLink iconType="SEND" text="DOCUMENTS " />
+			<m:MaterialLink iconType="SEND" text="HOW TO APPLY" />
+			<m:MaterialLink iconType="SEND" text="HELP CENTRE" />
+			<m:MaterialLink iconType="SEND" text="ABOUT US" />
+
+		</m:MaterialSideNavDrawer>
+		<m:MaterialContainer ui:field="c">
+		
+		 <m:MaterialRow  ui:field="tt1" paddingTop="60" marginLeft="350">
+        <m:MaterialSlider ui:field="slider" fullscreen="false"  width="1000px" height="1000px" >
+        	<m:MaterialSlideItem>
+          <m:MaterialImage url="https://www.gruh.com/wp-content/uploads/2016/07/clss.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+        
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_863,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/oocietx3xrox715kmjq5/JaipurVillageJeepSafari.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+        
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://images1.livehindustan.com/uploadimage/library/2018/09/15/16_9/16_9_1/Swachhta_Hi_Seva_Campaign_1536953367.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+        
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://i.ytimg.com/vi/doix6ivOjec/maxresdefault.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+        
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://i.ytimg.com/vi/KHV5AgexTK8/maxresdefault.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="" description=""/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+        
+          </m:MaterialSlider>
+        </m:MaterialRow>        			
+		</m:MaterialContainer>
+			 <m:MaterialRow ui:field="e1">
+	 <m:MaterialFooter >
+
+  	<m:MaterialRow>
+ 	<m:MaterialColumn grid="s12 m6 l6">
+ 	<m:MaterialTitle textColor="WHITE" title="Join The Discussion" description="We provide Gitter Chat rooms in order for GWT Developers discussed and collaborate about GWT Material Design and Phonegap Integration."/>
+ 	</m:MaterialColumn>
+ 	<m:MaterialColumn grid="s12 m6 l6">
+ 	<m:MaterialTitle textColor="WHITE" title="ANY QUERY?" description="Contact to our Constumer Care-1800-2321-3400 or Email us-customercare@subsidy.in"/>
+ 	</m:MaterialColumn>
+ 	</m:MaterialRow>
+
+  	<m:MaterialFooterCopyright>
+ 	<m:MaterialLabel text="© 2019 Copyright" />
+ 	</m:MaterialFooterCopyright>
+ 	</m:MaterialFooter>
+	</m:MaterialRow>
+		</m:MaterialPanel>
+		</ui:UiBinder> 

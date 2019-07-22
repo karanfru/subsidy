@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/gwt-2.8.2/gwt-user.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/gwt-2.8.2/gwt-dev.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/gwt-2.8.2/validation-api-1.0.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/gwt-2.8.2/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry exported="true" kind="lib" path="C:/proj/aa/war/WEB-INF/lib/gwt-material-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/proj/aa/war/WEB-INF/lib/gwt-material-addins-2.2-rc1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/proj/aa/war/WEB-INF/lib/gwt-material-jquery-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/proj/aa/war/WEB-INF/lib/gwt-material-table-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/proj/aa/war/WEB-INF/lib/gwt-material-themes-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/java/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

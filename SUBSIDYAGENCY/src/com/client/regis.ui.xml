@@ -1,0 +1,40 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m='urn:import:gwt.material.design.client.ui'
+	xmlns:ma="urn:import:gwt.material.design.addins.client">
+	<ui:style gss="true">
+	.important {
+		font-weight: bold;
+	}
+	.panel{
+ background:url("https://us.123rf.com/450wm/aquir/aquir1906/aquir190602388/124997605-stock-vector-register-here-grunge-ribbon-register-here-sign-register-here-banner.jpg?ver=6");
+ background-size: 100%;
+ padding: 0px !important;
+ padding-top: 40% !important;
+ }
+ .fieldPanel{
+ background: white;
+ padding: 6%;
+ }
+ 
+ .login_demo{
+ padding: 5%;
+ }
+	</ui:style>	
+	<m:MaterialRow backgroundColor="AMBER_LIGHTEN_3" addStyleNames="{style.login_demo}">
+ <m:MaterialColumn grid="s12 m8 l6" offset="l4" >
+ <m:MaterialPanel shadow="1" addStyleNames="{style.panel}">
+<m:MaterialPanel addStyleNames="{style.fieldPanel}">
+<m:MaterialTextBox label="Name" ui:field="a1"/>
+<m:MaterialTextBox label="Aadhaar Detail" ui:field="a2"/>
+<m:MaterialTextBox label="PAN Detail" ui:field="a3"/>
+<m:MaterialTextBox label="NO. of Members" ui:field="a4"/>
+ <m:MaterialTextBox label="Username" ui:field="a5"/>
+ <m:MaterialTextBox type="PASSWORD" label="Password"  ui:field="a6" />
+ <m:MaterialButton ui:field="w1" waves="LIGHT" text="Register" width="100%" backgroundColor="DEEP_ORANGE"/>
+ </m:MaterialPanel>
+ </m:MaterialPanel>
+ </m:MaterialColumn>
+ </m:MaterialRow>
+	
+	</ui:UiBinder>
